@@ -24,3 +24,5 @@ while len(dir_list) != 0:
 
 for f in file_list:
     os.rename(f, f.replace(',', '_'))
+
+print("File Renaming Complete")
